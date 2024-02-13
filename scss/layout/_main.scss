@@ -3,6 +3,8 @@ main > .container {
 	display: grid;
 }
 
-main > .container {
-	place-items: center;
+@media (min-width: 48em) {
+	main > .container {
+		place-items: center;
+	}
 }
